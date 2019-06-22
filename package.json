@@ -15,7 +15,10 @@
   },
   "engineStrict": true,
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "husky": "^2.4.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "main": "src/index.js",
+  "repository": "git@github.com:thayssn/boilerplate.git"
 }
