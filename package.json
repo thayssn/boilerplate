@@ -5,8 +5,8 @@
   "author": "Thays <thays.sn@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "cook": "git init && yarn && yarn init && yarn eslint --init",
-    "npm-cook": "git init && npm i && npm init && npx eslint --init"
+    "cook": "git init && yarn && yarn init &&  yarn eslint --init",
+    "cook:npm": "git init && npm i && npm init && npx eslint --init"
   },
   "engines": {
     "node": "12.4.0",
