@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "cook": "git init && yarn && yarn init &&  yarn eslint --init",
-    "cook:npm": "git init && npm i && npm init && npx eslint --init"
+    "cook:npm": "git init && npm i && npm init && npx eslint --init",
+    "lint": "yarn eslint ./",
+    "lint:npm": "npx eslint ./"
   },
   "engines": {
     "node": "12.4.0",
